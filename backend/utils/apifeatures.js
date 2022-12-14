@@ -4,3 +4,6 @@ class ApiFeatures {
       this.queryStr = queryStr;
     }
 }
+
+
+module.exports = ApiFeatures;
