@@ -10,8 +10,8 @@ process.on("uncaughtException", (err) => {
     process.exit(1);
   });
 
+  
 PORT = process.env.PORT ||5000
-
 connectDB();
 
 const server = app.listen(PORT, ()=>{
