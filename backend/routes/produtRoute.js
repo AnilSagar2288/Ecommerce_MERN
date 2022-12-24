@@ -24,7 +24,7 @@ router
   
 
   router
-  .route ('/admin/product/:id').get (getProductDetails);
+  .route ('/product/:id').get (getProductDetails);
 
   router
   .route ('/review').put(isAuthenticatedUser,createProductReview);
